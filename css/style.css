@@ -1,0 +1,595 @@
+.container {
+    width: 1920px;
+    height: 6975px;
+    /*background-color: #ccc;*/
+    border: 1px solid;
+    text-align: center;
+}
+
+.main {
+    background-image: url(../img/bg_photo.png);
+    height: 1024px;
+    outline: 3px dashed forestgreen;
+    position: relative;
+}
+
+.header {
+    padding-top: 40px;
+}
+
+.logo-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 185px;
+    /* border: 1px solid black; */
+    text-decoration: none;
+    color: #fff;
+    margin: 0 200px;
+}
+
+.logo-link:hover .logo-icon {
+    fill: gold;
+}
+
+.logo-link:hover .logo-txt {
+    color: gold;
+}
+
+.logo-link:active .logo-icon {
+    fill: green;
+}
+
+.logo-link:active .logo-txt {
+    color: green;
+}
+
+.logo-icon {
+    fill: CurrentColor;
+}
+
+.logo-txt {
+    font-family: 'Raleway', sans-serif;
+    font-size: 34px;
+}
+
+nav {
+    text-align: center;
+    margin-top: -50px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+.main li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+nav ul li a:hover {
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #c7b299;
+}
+
+.angle {
+    display: block;
+    width: 30px;
+    height: 30px;
+    transform: rotate(45deg);
+}
+
+.angle_left {
+    border-left: 3px solid #ccc;
+    border-bottom: 3px solid #ccc;
+    float: left;
+    margin-left: 150px;
+    margin-top: 135px;
+}
+
+.angle_right {
+    border-right: 3px solid #ccc;
+    border-top: 3px solid #ccc;
+    float: right;
+    margin-right: 150px;
+    margin-top: 135px;
+}
+
+.main_words {
+    text-align: center;
+    display: inline-block;
+}
+
+.main_words_span1 {
+    font-family: Raleway;
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.main_words_span2 {
+    font-family: Raleway;
+    font-size: 52px;
+    line-height: 1.2;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.button {
+    width: 170px;
+    height: 53px;
+    background-color: #998675;
+    border-radius: 3.0px;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
+
+.button:hover {
+    color: #998675;
+    background-color: #fff;
+}
+
+.main_section {
+    border: 2px dotted yellow;
+    margin-top: 310px;
+    text-align: center;
+    display: list-item;
+}
+
+.main_section p {
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #ffffff;
+    width: 565px;
+    text-align: center;
+}
+
+.pagination_box {
+    margin-top: 200px;
+    width: 1900px;
+}
+
+.pagination {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 3px;
+}
+
+.pagination:hover {
+    width: 15px;
+    height: 15px;
+    opacity: 0.2;
+}
+
+
+.four_signs {
+    display: flex;
+    justify-content: center;
+}
+
+.four_signs div {
+    border: 1px solid red;
+    width: 265px;
+    margin: 80px 17px;
+    display: grid;
+}
+
+.four_signs div span {
+    font-family: Raleway;
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #555555;
+}
+
+.four_signs div:hover {
+    color: #c7b299;
+}
+
+.backgrounds {
+    display: inline-block;
+    background-color: #fbfaf8;
+}
+
+.backgrounds h1 {
+    font-family: Raleway;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #555555;
+}
+
+.backgrounds p {
+    width: 757px;
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #8c8c8c;
+    margin: 0 581px;
+}
+
+.backgrounds_image {
+    width: 1230px;
+    height: 482px;
+    background-color: #ccc;
+    background-image: url(../img/browser_center_10768.png),
+        url(../img/browser_left_10769.png),
+        url(../img/browser_right_10770.png);
+    background-repeat: no-repeat;
+    background-position: center, left, right;
+    margin: 40px 344px 0 344px;
+}
+
+.aside {
+    height: 150px;
+    width: 1920px;
+    height: 150px;
+    background-color: #f4f5f8;
+    background-image: linear-gradient(90.0deg, #211b19 0%, #4e3427 100%);
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.aside_div {
+    margin-top: 48px;
+}
+
+.aside_span:before {
+    /* Text styles for "Waxom" */
+    color: #c7b299;
+    content: "Waxom ";
+}
+
+.aside_span {
+    /* Text styles for " Multipurpose WordPress Theme" */
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+.aside_p {
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #615855;
+    margin-top: 8px;
+}
+
+.aside a {
+    margin: 48px 0;
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 800;
+}
+
+.aside span::last-child {
+    line-height: 4;
+}
+
+#Purchase {
+    margin-top: 45px;
+}
+
+.projects {
+    padding: 0 355px;
+    height: 1162px;
+    border: 1px dashed green;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.projects h1 {
+    font-family: Raleway;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #555555;
+    margin-top: 80px;
+    margin-bottom: 0;
+}
+
+.projects p {
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #8c8c8c;
+    width: 757px;
+    height: 50px;
+    margin: 0;
+}
+
+.projects h1,
+.projects_buttons {
+    width: 100%;
+}
+
+.projects p {
+    width: 757px;
+}
+
+.projects_box {
+    height: 337px;
+    width: 370px;
+    margin: 0 15px;
+    border: 1px solid black;
+    background-color: #fbfaf8;
+    text-align: center;
+}
+
+#projects_box_brown {
+    background-color: #362f2d;
+}
+
+#projects_box_brown h2 {
+    color: #d1d1d1;
+}
+
+#projects_box_brown span {
+    color: #c7b299;
+}
+
+/*.projects_box:nth-child(2) {
+	background-color: #362f2d;
+}*/
+
+.projects_box_title {
+    font-family: Raleway;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #c7b299;
+}
+
+.projects_box_text {
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #d1d1d1;
+}
+
+.projects_box:hover {
+    filter: brightness(40%);
+}
+
+.button_link {
+    margin: 0 5px;
+    background-color: #fff;
+    border: 1px solid #8c8c8c;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 300;
+    color: #8c8c8c;
+}
+
+.button_link:hover {
+    background-color: #ccc;
+    color: #fff;
+
+}
+
+
+/*************************/
+/*************************/
+/*************************/
+.project-item {
+    width: 300px;
+    border: 1px solid black;
+    position: relative;
+}
+
+
+
+.project-item:hover .project-item-wrp {
+    background-color: #fff;
+}
+
+.project-item:hover .project-item-wrp:before {
+    border-bottom: 10px solid #fff;
+}
+
+.project-item:hover .project-item-btn {
+    display: block;
+}
+
+.project-item-pic {
+    display: block;
+    width: 100%;
+}
+
+.project-item-wrp {
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #ccc;
+    position: relative;
+}
+
+.project-item-wrp:before {
+    content: "";
+    border: 10px solid transparent;
+    border-bottom: 10px solid #ccc;
+    position: absolute;
+    top: -20px;
+    left: 15px;
+}
+
+.project-item-title {
+    display: block;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+.project-item-txt {
+    display: block;
+    text-align: center;
+}
+
+.project-item-btn {
+    display: none;
+    width: 20px;
+    height: 20px;
+    border: none;
+    border: 1px solid red;
+    background-color: transparent;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+}
+
+/*************************/
+/*************************/
+/*************************/
+
+.video {
+    height: 705px;
+    width: 100%;
+    border: 1px dashed red;
+    background-image: url("../img/bg_photo_10983.png");
+}
+
+.iphone {
+	height: 695px;
+}
+
+.iphone_pic {
+    margin: -80px 30px 0 423px;
+    float: left;
+}
+
+.iphone_title {
+    margin-top: 195px;
+    font-family: Raleway;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #555555;
+}
+
+.iphone_text {
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #8c8c8c;
+}
+
+.iphone summary {
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 300;
+    color: #8c8c8c;
+}
+
+.iphone details {
+    margin-left: 940px;
+}
+
+.iphone_txt, .iphone details {
+    text-align: left;
+}
+
+.section_wth_signs {
+	height: 300px;
+background-color: #f4f5f8;
+background-image: linear-gradient(90.0deg, #211b19 0%, #4e3427 100%);
+text-align: center;
+display: flex;
+    justify-content: center;
+
+}
+
+.section_wth_signs figure {
+	margin: 70px 59px 60px;
+}
+
+.section_wth_signs figure h1 {
+	margin: 15px 0;
+}
+
+.section_wth_signs h1 {
+	font-family: Montserrat;
+font-size: 48px;
+line-height: 36px;
+font-weight: 200;
+color: #ffffff;
+}
+
+.section_wth_signs figcaption {
+	font-family: Montserrat;
+font-size: 14px;
+line-height: 20px;
+font-weight: 300;
+text-transform: uppercase;
+color: #c7b299;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
